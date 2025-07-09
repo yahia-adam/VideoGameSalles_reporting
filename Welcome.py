@@ -63,7 +63,7 @@ with col2:
     st.markdown("""
     <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 15px; border: 1px solid rgba(255,255,255,0.1);">
         <div style="width: 120px; height: 120px; margin: 0 auto; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white; border: 3px solid #667eea;">
-         👨‍💻
+            👨‍💻
         </div>
         <h4 style="margin: 0.5rem 0; color: inherit;">KIANMENE TAKUEFOU Clyde</h4>
         <p style="opacity: 0.8; margin: 0;">Data Analyst</p>

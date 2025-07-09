@@ -396,7 +396,7 @@ with col4:
     <div style="text-align: center; padding: 1rem;">
         <h5 style="margin: 1rem 0;">🙏 Remerciements</h5>
         <p style="margin: 0; opacity: 0.8; font-size: 0.8rem;">
-            • Intervenant ESGI : Arnauld Biaam<br>
+            • Intervenant ESGI : Arnauld Biam<br>
             • Kaggle Community, VGChartz.com<br>
             • Open Source Tools
         </p>

@@ -33,9 +33,9 @@ with col1:
 
 with col2:
     st.markdown("""
-    <div style="text-align: center; padding: 1rem; background-color: #f0f2f6; border-radius: 10px;">
-        <h3>📅 Projet 2024/2025</h3>
-        <p><strong>Analyse de données</strong><br>
+    <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 10px; border: 1px solid rgba(255,255,255,0.1);">
+        <h3 style="color: inherit;">📅 Projet 2024/2025</h3>
+        <p style="color: inherit;"><strong>Analyse de données</strong><br>
         <strong>Visualisation interactive</strong><br>
         <strong>Business Intelligence</strong></p>
     </div>
@@ -50,31 +50,34 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("""
-    <div style="text-align: center; padding: 1rem; background-color: #f8f9fa; border-radius: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-        <img src="https://ges-dl.kordis.fr/public/dEkj-aOcIw52B9RsgY-op3gtqnfCNW1ZCZSMwXEBz3M?pfdrid_c=true" 
-             style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #667eea;">
-        <h4 style="margin: 0.5rem 0; color: #333;">YAHIA ABDCHAFEE Adam</h4>
-        <p style="color: #666; margin: 0;">Data Analyst</p>
+    <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 15px; border: 1px solid rgba(255,255,255,0.1);">
+        <div style="width: 120px; height: 120px; margin: 0 auto; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white; border: 3px solid #667eea;">
+            👨‍🔬
+        </div>
+        <h4 style="margin: 0.5rem 0; color: inherit;">YAHIA ABDCHAFEE Adam</h4>
+        <p style="opacity: 0.8; margin: 0;">Data Scientist</p>
     </div>
     """, unsafe_allow_html=True)
 
 with col2:
     st.markdown("""
-    <div style="text-align: center; padding: 1rem; background-color: #f8f9fa; border-radius: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-        <img src="https://ges-dl.kordis.fr/public/dEkj-aOcIw52B9RsgY-op5CjG2r1koq1CZSMwXEBz3M?pfdrid_c=true" 
-             style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #667eea;">
-        <h4 style="margin: 0.5rem 0; color: #333;">KIANMENE TAKUEFOU Clyde</h4>
-        <p style="color: #666; margin: 0;">Data Scientist</p>
+    <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 15px; border: 1px solid rgba(255,255,255,0.1);">
+        <div style="width: 120px; height: 120px; margin: 0 auto; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white; border: 3px solid #667eea;">
+         👨‍💻
+        </div>
+        <h4 style="margin: 0.5rem 0; color: inherit;">KIANMENE TAKUEFOU Clyde</h4>
+        <p style="opacity: 0.8; margin: 0;">Data Analyst</p>
     </div>
     """, unsafe_allow_html=True)
 
 with col3:
     st.markdown("""
-    <div style="text-align: center; padding: 1rem; background-color: #f8f9fa; border-radius: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-        <img src="https://ges-dl.kordis.fr/public/dEkj-aOcIw52B9RsgY-opzVejpo67SADCZSMwXEBz3M?pfdrid_c=true" 
-             style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #667eea;">
-        <h4 style="margin: 0.5rem 0; color: #333;">BOUZOUBAA Yassine</h4>
-        <p style="color: #666; margin: 0;">Business Analyst</p>
+    <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 15px; border: 1px solid rgba(255,255,255,0.1);">
+        <div style="width: 120px; height: 120px; margin: 0 auto; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white; border: 3px solid #667eea;">
+            👨‍💼
+        </div>
+        <h4 style="margin: 0.5rem 0; color: inherit;">BOUZOUBAA Yassine</h4>
+        <p style="opacity: 0.8; margin: 0;">Business Analyst</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -201,28 +204,28 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("""
-    <div style="padding: 1.5rem; background-color: #e8f4fd; border-left: 5px solid #2196F3; border-radius: 10px;">
-        <h4 style="margin: 0 0 1rem 0; color: #1976D2;">🎮 Hypothèse 1</h4>
-        <p style="margin: 0; color: #333;"><strong>Les jeux d'Action sont-ils les plus vendus mondialement ?</strong></p>
-        <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; color: #666;">Analyse des ventes par genre</p>
+    <div style="padding: 1.5rem; background: rgba(232, 244, 253, 0.1); border-left: 5px solid #2196F3; border-radius: 10px; border: 1px solid rgba(33, 150, 243, 0.3);">
+        <h4 style="margin: 0 0 1rem 0; color: #2196F3;">🎮 Hypothèse 1</h4>
+        <p style="margin: 0; color: inherit;"><strong>Les jeux d'Action sont-ils les plus vendus mondialement ?</strong></p>
+        <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; opacity: 0.8;">Analyse des ventes par genre</p>
     </div>
     """, unsafe_allow_html=True)
 
 with col2:
     st.markdown("""
-    <div style="padding: 1.5rem; background-color: #f3e5f5; border-left: 5px solid #9C27B0; border-radius: 10px;">
-        <h4 style="margin: 0 0 1rem 0; color: #7B1FA2;">🌍 Hypothèse 2</h4>
-        <p style="margin: 0; color: #333;"><strong>Les États-Unis dominent-ils la consommation mondiale ?</strong></p>
-        <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; color: #666;">Analyse des ventes régionales</p>
+    <div style="padding: 1.5rem; background: rgba(243, 229, 245, 0.1); border-left: 5px solid #9C27B0; border-radius: 10px; border: 1px solid rgba(156, 39, 176, 0.3);">
+        <h4 style="margin: 0 0 1rem 0; color: #9C27B0;">🌍 Hypothèse 2</h4>
+        <p style="margin: 0; color: inherit;"><strong>Les États-Unis dominent-ils la consommation mondiale ?</strong></p>
+        <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; opacity: 0.8;">Analyse des ventes régionales</p>
     </div>
     """, unsafe_allow_html=True)
 
 with col3:
     st.markdown("""
-    <div style="padding: 1.5rem; background-color: #fff3e0; border-left: 5px solid #FF9800; border-radius: 10px;">
-        <h4 style="margin: 0 0 1rem 0; color: #F57C00;">🇯🇵 Hypothèse 3</h4>
-        <p style="margin: 0; color: #333;"><strong>Le Japon privilégie-t-il les consoles Nintendo ?</strong></p>
-        <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; color: #666;">Analyse du marché japonais</p>
+    <div style="padding: 1.5rem; background: rgba(255, 243, 224, 0.1); border-left: 5px solid #FF9800; border-radius: 10px; border: 1px solid rgba(255, 152, 0, 0.3);">
+        <h4 style="margin: 0 0 1rem 0; color: #FF9800;">🇯🇵 Hypothèse 3</h4>
+        <p style="margin: 0; color: inherit;"><strong>Le Japon privilégie-t-il les consoles Nintendo ?</strong></p>
+        <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; opacity: 0.8;">Analyse du marché japonais</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -235,8 +238,8 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("""
-    <div style="text-align: center; padding: 1.5rem; background-color: #f8f9fa; border-radius: 15px;">
-        <h4>📂 Code Source</h4>
+    <div style="text-align: center; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 15px; border: 1px solid rgba(255,255,255,0.1);">
+        <h4 style="color: inherit;">📂 Code Source</h4>
         <a href="https://github.com/yahia-adam/VideoGameSalles_reporting" target="_blank" 
            style="text-decoration: none; background-color: #24292e; color: white; padding: 0.7rem 1.5rem; 
                   border-radius: 25px; display: inline-block; margin-top: 1rem;">
@@ -247,8 +250,8 @@ with col1:
 
 with col2:
     st.markdown("""
-    <div style="text-align: center; padding: 1.5rem; background-color: #f8f9fa; border-radius: 15px;">
-        <h4>📊 Dataset</h4>
+    <div style="text-align: center; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 15px; border: 1px solid rgba(255,255,255,0.1);">
+        <h4 style="color: inherit;">📊 Dataset</h4>
         <a href="https://www.kaggle.com/datasets/gregorut/videogamesales" target="_blank" 
            style="text-decoration: none; background-color: #20beff; color: white; padding: 0.7rem 1.5rem; 
                   border-radius: 25px; display: inline-block; margin-top: 1rem;">
@@ -259,8 +262,8 @@ with col2:
 
 with col3:
     st.markdown("""
-    <div style="text-align: center; padding: 1.5rem; background-color: #f8f9fa; border-radius: 15px;">
-        <h4>🎓 ESGI</h4>
+    <div style="text-align: center; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 15px; border: 1px solid rgba(255,255,255,0.1);">
+        <h4 style="color: inherit;">🎓 ESGI</h4>
         <a href="https://www.esgi.fr" target="_blank" 
            style="text-decoration: none; background-color: #e74c3c; color: white; padding: 0.7rem 1.5rem; 
                   border-radius: 25px; display: inline-block; margin-top: 1rem;">
@@ -272,8 +275,8 @@ with col3:
 # Footer
 st.markdown("---")
 st.markdown("""
-<div style="text-align: center; padding: 2rem; background-color: #f8f9fa; border-radius: 10px; margin-top: 2rem;">
-    <p style="margin: 0; color: #666; font-size: 0.9rem;">
+<div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.05); border-radius: 10px; margin-top: 2rem; border: 1px solid rgba(255,255,255,0.1);">
+    <p style="margin: 0; opacity: 0.8; font-size: 0.9rem;">
         🎮 Projet développé dans le cadre du cours "Reporting et Restitution" - ESGI 2024/2025<br>
         📊 Analyse interactive des données de ventes de jeux vidéo avec Streamlit et Python
     </p>
